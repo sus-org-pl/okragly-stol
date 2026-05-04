@@ -91,7 +91,7 @@ const App = () => {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <a href="#agenda" className="px-8 py-4 border-2 black-100 font-bold rounded-full dark:hover:bg-white/10 transition-all flex items-center gap-2">
+              <a href="#agenda" className="px-8 py-4 border-2 black-100 font-bold rounded-full dark:hover:bg-white dark:hover:text-black hover:bg-black hover:text-white transition-all flex items-center gap-2">
                 Agenda <MdOutlineArrowForwardIos />
               </a>
               <a href="#rejestracja" className="px-8 py-4 bg-malina text-white font-bold rounded-full transition-all shadow-xl shadow-malina/30 hover:bg-malinaDark hover:shadow-none flex items-center gap-2">
@@ -166,14 +166,14 @@ const App = () => {
                 {/* {agendaItems.map((item, idx) => (
                   <div key={idx} className="flex flex-col md:flex-row gap-6 md:gap-16 border-b border-gray-200 pb-12 last:border-0">
                     <div className="md:w-32">
-                      <span className="text-2xl font-bold">{item.time}</span>
+                      <span className="text-3xl font-bold font-special">{item.time}</span>
                     </div>
                     <div className="flex-1">
                       <span className="inline-block px-3 py-1 rounded-full text-[10px] font-bold tracking-wider mb-4 text-malina border border-malina-100">
                         {item.tag}
                       </span>
                       <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                      <p className= leading-relaxed max-w-2xl">{item.description}</p>
+                      <p className="leading-relaxed max-w-2xl">{item.description}</p>
                     </div>
                   </div>
                 ))} */}
@@ -244,7 +244,7 @@ const App = () => {
                             key={btnIdx}
                             href={btn.link || "#"}
                             target="_blank"
-                            className="w-full py-3 text-malina dark:text-white border border-malina dark:border-white rounded-full font-bold text-sm transition-all flex flex-row items-center justify-center gap-2 whitespace-nowrap"
+                            className="w-full py-3 hover:text-white dark:hover:bg-white dark:hover:text-black hover:bg-malina text-malina dark:text-white border border-malina dark:border-white rounded-full font-bold text-sm transition-all flex flex-row items-center justify-center gap-2 whitespace-nowrap"
                           >
                             <span className="mt-[2px]">{btn.label}</span> {Icon && <Icon size={17} />}
                           </a>
