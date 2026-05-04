@@ -1,8 +1,8 @@
 "use client";
 import './globals.css';
 import React, { useState } from 'react';
-import { MdLink, MdOutlineArrowForwardIos } from 'react-icons/md';
-import { IoIosBus, IoIosClipboard, IoIosDocument, IoIosDownload, IoMdDocument, IoMdGlobe } from 'react-icons/io';
+import { MdArrowRight, MdChevronRight, MdEditDocument, MdKeyboardArrowRight, MdLink, MdOutlineArrowForwardIos } from 'react-icons/md';
+import { IoIosBus, IoIosClipboard, IoIosDocument, IoIosDownload, IoMdBus, IoMdClipboard, IoMdDocument, IoMdGlobe } from 'react-icons/io';
 import { useTheme } from 'next-themes';
 import { ExternalLinkIcon } from 'lucide-react';
 
@@ -33,7 +33,7 @@ const App = () => {
   const downloads = [
     {
       title: "Diagnoza Młodzieży 2026",
-      mainIcon: IoIosDocument,
+      mainIcon: MdEditDocument,
       short: "Raport",
       description: "Raport przygotowany przez Polskie Towarzystwo Polityki Społecznej. Stanowi analizę ponad 200 badań dotyczących życia młodych ludzi w Polsce.",
       buttons: [
@@ -53,7 +53,7 @@ const App = () => {
     },
     {
       title: "Wypełnij ankietę",
-      mainIcon: IoIosClipboard,
+      mainIcon: IoMdClipboard,
       short: "Ankieta",
       description: "Fundacja Civis Polonus zaprasza do wypełnienia ankiet, dzięki którym możecie już teraz zabrać głos na temat Strategii. Zebrane dane posłużą do opracowania raportu.",
       buttons: [
@@ -284,7 +284,7 @@ const App = () => {
               <div className="absolute z-10 max-w-2xl mr-4 h-auto p-8 bg-white/75 dark:bg-white/10 backdrop-blur-xs border border-white/15 dark:shadow-white/4 shadow-lg shadow-black/5 inset-shadow-md inset-shadow-black/13 dark:inset-shadow-white/10 rounded-[40px]">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="flex items-center justify-center w-12 h-12">
-                    <IoIosBus className="text-malina w-10 h-10" />
+                    <IoMdBus className="text-malina w-10 h-10" />
                   </div>
                   <h2 className="text-xl font-bold black-100">
                     Zwrot kosztów
