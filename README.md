@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ogólnopolski Okrągły Stół ds. Strategii Młodzieżowej
 
-## Getting Started
+Strona internetowa wydarzenia **Ogólnopolski Okrągły Stół ds. Strategii Młodzieżowej** — inicjatywy organizowanej przez Stowarzyszenie Umarłych Statutów (SUS) i Fundację PZU, z patronatem honorowym Ministra Edukacji Narodowej.
 
-First, run the development server:
+Wydarzenie odbywa się **25 maja 2026 r. w Warszawie** i stanowi jedno z kluczowych spotkań w procesie konsultacji społecznych nad Krajową Strategią Młodzieżową.
+
+## Stack technologiczny
+
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Język:** TypeScript + React 19
+- **Style:** Tailwind CSS v4
+- **Ikony:** `react-icons`, `lucide-react`
+- **Motywy:** `next-themes` (tryb jasny/ciemny)
+- **Hosting:** [Cloudflare Pages](https://pages.cloudflare.com/) via [`@opennextjs/cloudflare`](https://github.com/opennextjs/opennextjs-cloudflare)
+
+## Uruchomienie lokalne
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aplikacja będzie dostępna pod adresem `https://okraglystol.sus.org.pl`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Wdrożenie
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Projekt jest wdrażany na Cloudflare Pages. Do budowania i deploymentu służą skrypty:
 
-## Learn More
+```bash
+npm run deploy    # build + deploy na Cloudflare
+npm run preview   # lokalny podgląd środowiska Cloudflare
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Struktura projektu
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+app/
+├── layout.tsx       # Główny layout, konfiguracja motywów
+├── page.tsx         # Strona główna (agenda, rejestracja, partnerzy, kontakt)
+└── globals.css      # Globalne style i tokeny
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+public/              # Assety statyczne (logotypy, grafiki)
+```
 
-## Deploy on Vercel
+## Kontakt
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Ogólny: [kontakt@sus.org.pl](mailto:kontakt@sus.org.pl)
+- Media: [media@sus.org.pl](mailto:media@sus.org.pl)
