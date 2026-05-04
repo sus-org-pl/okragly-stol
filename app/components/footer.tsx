@@ -19,7 +19,6 @@ export default function Footer() {
                             <Link href="/rodo" className="block hover:underline">
                                 RODO
                             </Link>
-                            <hr />
                             <Link href="https://www.gov.pl/web/edukacja/krajowa-strategia-mlodziezowa" target="_blank" rel="noopener noreferrer" className="block hover:underline">
                                 Krajowa Strategia Młodzieżowa
                                 <ExternalLinkIcon className="inline-block w-3 h-3 ml-1" />
