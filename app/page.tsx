@@ -320,12 +320,12 @@ const App = () => {
               <h2 className="text-4xl md:text-5xl font-bold">Organizatorzy i partnerzy</h2>
             </div>
           </div>
-          <div className="grid grid-cols-1 items-center sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 items-center sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { label: "ORGANIZATOR", name: "Stowarzyszenie Umarłych Statutów", logo: "/logos/sus/sus.svg", link: "https://sus.org.pl" },
               { label: "PARTNER", name: "Fundacja PZU", logo: "/logos/pzu/pzu.svg", link: "https://fundacja.pzu.pl" },
               { label: "PARTNER", name: "Narodowy Instytut Wolności", logo: "/logos/niw/niw.svg", link: "https://niw.gov.pl" },
-              // { label: "PATRONAT HONOROWY", name: "Minister Edukacji", logo: "/logos/men/men.svg", link: "https://gov.pl/edukacja" }
+              { label: "PATRONAT HONOROWY", name: "Minister Edukacji", logo: "/logos/men/men.svg", link: "https://gov.pl/edukacja" }
             ].map((partner, i) => (
               <a key={i} href={partner.link} target="_blank" rel="noopener noreferrer" className="h-full">
                 <div key={i} className="bg-white/75 dark:bg-white/10 backdrop-blur-xs border border-white/15 dark:shadow-white/4 shadow-lg shadow-black/5 inset-shadow-md inset-shadow-black/13 dark:inset-shadow-white/10 p-8 h-full rounded-2xl text-center transition-shadow">
