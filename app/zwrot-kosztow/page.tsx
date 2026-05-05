@@ -10,9 +10,22 @@ export default async function ZwrotKosztow() {
             <section className="relative pt-16 pb-24 overflow-hidden">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-extrabold black-100 mb-8">
-                        Jak skorzystać z konkursu PROO 5 – Edycja 2026 na udział w Ogólnopolskim Okrągłym Stole ds. Strategii Młodzieżowej.
+                        Jak skorzystać z konkursu PROO 5 – Edycja 2026 na udział w Ogólnopolskim Okrągłym Stole ds. Strategii Młodzieżowej
                     </h1>
                 </div>
+                <Question>
+                    <h2 className="text-xl font-extrabold text-red-500 mb-6">
+                        — Gdzie i jak złożyć wniosek?
+                    </h2>
+                    <h2 className="text-xl font-extrabold black-80 mb-3">
+                        Wniosek składa się tylko przez System Obsługi Dotacji (SOD)
+                    </h2>
+                    <div className="flex items-center gap-4 mb-6">
+                        <a href="https://generator.niw.gov.pl/login" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-malina text-white shadow-lg hover:shadow-none shadow-malina/50 font-bold rounded-full hover:bg-malinaDark transition-all flex items-center gap-2">
+                            Złóż wniosek <ExternalLink size={18} />
+                        </a>
+                    </div>
+                </Question>
                 <Question>
                     <h2 className="text-xl font-extrabold text-red-500 mb-6">
                         — Kto może składać wniosek?
@@ -94,19 +107,7 @@ export default async function ZwrotKosztow() {
                         Maksymalna kwota dofinansowania: 10 000 zł brutto.
                     </p>
                 </Question>
-                <Question>
-                    <h2 className="text-xl font-extrabold text-red-500 mb-6">
-                        — Gdzie i jak złożyć wniosek?
-                    </h2>
-                    <h2 className="text-xl font-extrabold black-80 mb-3">
-                        Wniosek składa się tylko przez System Obsługi Dotacji (SOD)
-                    </h2>
-                    <div className="flex items-center gap-4 mb-6">
-                        <a href="https://generator.niw.gov.pl/login" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-malina text-white shadow-lg hover:shadow-none shadow-malina/50 font-bold rounded-full hover:bg-malinaDark transition-all flex items-center gap-2">
-                            Złóż wniosek <ExternalLink size={18} />
-                        </a>
-                    </div>
-                </Question>
+
                 <Question>
                     <h2 className="text-xl font-extrabold text-red-500 mb-6">
                         — Jak dobrze napisać wniosek?

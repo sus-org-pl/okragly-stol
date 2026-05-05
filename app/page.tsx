@@ -84,7 +84,7 @@ const App = () => {
                 <span className="uppercase font-bold tracking-wider">Data</span>
                 <span className="text-malina uppercase font-medium">25 Maja 2026</span>
                 <span className="uppercase font-bold tracking-wider">Miejsce</span>
-                <span className="text-malina uppercase font-medium">Warszawa</span>
+                <span className="text-malina uppercase font-medium"><span className="text-malina font-extrabold">The Tides</span> <br />Wioślarska 8, Warszawa</span>
                 <span className="uppercase font-bold tracking-wider">Forma</span>
                 <span className="text-malina uppercase font-medium">Wydarzenie stacjonarne i udział bezpłatny</span>
               </div>
@@ -163,6 +163,7 @@ const App = () => {
 
               <div className="space-y-12">
                 <p>Agenda zostanie ogłoszona w najbliższym czasie.</p>
+                <p>Rozpoczęcie wydarzenia o godzinie 9:00.</p>
                 {/* {agendaItems.map((item, idx) => (
                   <div key={idx} className="flex flex-col md:flex-row gap-6 md:gap-16 border-b border-gray-200 pb-12 last:border-0">
                     <div className="md:w-32">
@@ -254,14 +255,12 @@ const App = () => {
                   </div>
                 ))}
               </div>
-
             </div>
           </div>
         </div>
       </section>
-
       {/*04*/}
-      <section id="rejestracja" className="pb-130 relative overflow-hidden">
+      <section id="rejestracja" className="pb-125 lg:pb-100 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="flex flex-col md:flex-row gap-16">
             <div className="w-24">
@@ -276,9 +275,16 @@ const App = () => {
                 <p>Zapraszamy uczniów, studentów, przedstawicieli młodzieżowych rad i organizacji pozarządowych, pracujących z młodymi. Dla każdego podmiotu przewidujemy miejsce dla jednego przedstawiciela.
                 </p>
                 <p className="font-medium">Liczba miejsc jest ograniczona. Po rejestracji otrzymasz potwierdzenie e-mailem wraz z szczegółami logistycznymi.</p>
-                <a href="#" className="inline-flex items-center gap-3 px-10 py-4 bg-malina text-white font-bold rounded-full hover:bg-malinaDark hover:shadow-none shadow-xl shadow-malina/30 transition-all">
+                <a href="https://forms.gle/HSMXeqWJ7WvtJW3j8" target='_blank' className="inline-flex items-center gap-3 px-10 py-4 bg-malina text-white font-bold rounded-full hover:bg-malinaDark hover:shadow-none shadow-xl shadow-malina/30 transition-all">
                   Rejestracja od 6 maja 2026 r. <MdOutlineArrowForwardIos size={16} />
                 </a>
+                {/* <p className="font-special text-2xl font-extrabold">
+                  Regulaminy i zgody wydarzenia
+                </p>
+                <div className="inline-flex rounded-full overflow-hidden border-2 border-malina">
+                  <a href="#" className="inline-flex items-center gap-3 px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white border-r border-malina">Regulamin wydarzenia</a>
+                  <a href="#" className="inline-flex items-center gap-3 px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white">Zgoda rodziców</a>
+                </div> */}
               </div>
 
               <div className="absolute z-10 max-w-2xl mr-4 h-auto p-8 bg-white/75 dark:bg-white/10 backdrop-blur-xs border border-white/15 dark:shadow-white/4 shadow-lg shadow-black/5 inset-shadow-md inset-shadow-black/13 dark:inset-shadow-white/10 rounded-[40px]">
