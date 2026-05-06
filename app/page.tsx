@@ -79,7 +79,7 @@ const App = () => {
               Polska tworzy pierwszą od ponad 20 lat Krajową Strategię Młodzieżową. Weź udział w konsultacjach – Twój głos ma realny wpływ!
             </p>
 
-            <div className="rounded-lg text-sm gap-8 mb-12 pt-8">
+            <div className="rounded-lg text-lg gap-8 mb-12 pt-8">
               <div className="grid grid-cols-[auto_1fr] gap-x-12 gap-y-6 items-baseline">
                 <span className="uppercase font-bold tracking-wider">Data</span>
                 <span className="text-malina uppercase font-medium">25 Maja 2026</span>
