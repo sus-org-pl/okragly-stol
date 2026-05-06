@@ -276,15 +276,15 @@ const App = () => {
                 </p>
                 <p className="font-medium">Liczba miejsc jest ograniczona. Po rejestracji otrzymasz potwierdzenie e-mailem wraz z szczegółami logistycznymi.</p>
                 <a href="https://forms.gle/HSMXeqWJ7WvtJW3j8" target='_blank' className="inline-flex items-center gap-3 px-10 py-4 bg-malina text-white font-bold rounded-full hover:bg-malinaDark hover:shadow-none shadow-xl shadow-malina/30 transition-all">
-                  Rejestracja od 6 maja 2026 r. <MdOutlineArrowForwardIos size={16} />
+                  Rejestracja<MdOutlineArrowForwardIos size={16} />
                 </a>
-                {/* <p className="font-special text-2xl font-extrabold">
+                <p className="font-special text-2xl font-extrabold">
                   Regulaminy i zgody wydarzenia
                 </p>
                 <div className="inline-flex rounded-full overflow-hidden border-2 border-malina">
-                  <a href="#" className="inline-flex items-center gap-3 px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white border-r border-malina">Regulamin wydarzenia</a>
-                  <a href="#" className="inline-flex items-center gap-3 px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white">Zgoda rodziców</a>
-                </div> */}
+                  <a href="/docs/regulamin.pdf" target='_blank' className="inline-flex items-center gap-3 px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white border-r border-malina">Regulamin wydarzenia</a>
+                  <a href="/docs/zgoda_rodzica.pdf" target='_blank' className="inline-flex items-center gap-3 px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white">Zgoda rodzica</a>
+                </div>
               </div>
 
               <div className="absolute z-10 max-w-2xl mr-4 h-auto p-8 bg-white/75 dark:bg-white/10 backdrop-blur-xs border border-white/15 dark:shadow-white/4 shadow-lg shadow-black/5 inset-shadow-md inset-shadow-black/13 dark:inset-shadow-white/10 rounded-[40px]">
