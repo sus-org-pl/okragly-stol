@@ -272,7 +272,7 @@ const App = () => {
               </span>
               <h2 className="text-4xl md:text-5xl font-bold mb-8">Zarejestruj się</h2>
               <div className="max-w-2xl mb-12 space-y-6">
-                <p>Zapraszamy uczniów, studentów, przedstawicieli młodzieżowych rad i organizacji pozarządowych, pracujących z młodymi. Dla każdego podmiotu przewidujemy miejsce dla jednego przedstawiciela.
+                <p>Zapraszamy uczniów, studentów, przedstawicieli młodzieżowych rad, młodzieżowych organizacji pozarządowych oraz organizacji pracujących z młodymi osobami i na ich rzecz. Dla każdego podmiotu przewidujemy miejsce dla jednego przedstawiciela.
                 </p>
                 <p className="font-medium">Liczba miejsc jest ograniczona. Po rejestracji otrzymasz potwierdzenie e-mailem wraz z szczegółami logistycznymi.</p>
                 <a href="https://forms.gle/HSMXeqWJ7WvtJW3j8" target='_blank' className="inline-flex items-center gap-3 px-10 py-4 bg-malina text-white font-bold rounded-full hover:bg-malinaDark hover:shadow-none shadow-xl shadow-malina/30 transition-all">
