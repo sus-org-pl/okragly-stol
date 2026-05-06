@@ -272,18 +272,18 @@ const App = () => {
               </span>
               <h2 className="text-4xl md:text-5xl font-bold mb-8">Zarejestruj się</h2>
               <div className="max-w-2xl mb-12 space-y-6">
-                <p>Zapraszamy uczniów, studentów, przedstawicieli młodzieżowych rad, młodzieżowych organizacji pozarządowych oraz organizacji pracujących z młodymi osobami i na ich rzecz. Dla każdego podmiotu przewidujemy miejsce dla jednego przedstawiciela.
+                <p>Zapraszamy uczniów, studentów, przedstawicieli młodzieżowych rad, młodzieżowych organizacji pozarządowych oraz organizacji pracujących z młodymi osobami i na ich rzecz. W szczególności zapraszamy osoby do 29. roku życia.<br /> <br />Dla każdego podmiotu przewidujemy miejsce dla jednego przedstawiciela.
                 </p>
                 <p className="font-medium">Liczba miejsc jest ograniczona. Po rejestracji otrzymasz potwierdzenie e-mailem wraz z szczegółami logistycznymi.</p>
                 <a href="https://forms.gle/HSMXeqWJ7WvtJW3j8" target='_blank' className="inline-flex items-center gap-3 px-10 py-4 bg-malina text-white font-bold rounded-full hover:bg-malinaDark hover:shadow-none shadow-xl shadow-malina/30 transition-all">
                   Rejestracja<MdOutlineArrowForwardIos size={16} />
                 </a>
                 <p className="font-special text-2xl font-extrabold">
-                  Regulaminy i zgody wydarzenia
+                  Do pobrania
                 </p>
                 <div className="inline-flex rounded-full overflow-hidden border-2 border-malina">
-                  <a href="/docs/regulamin.pdf" target='_blank' className="inline-flex items-center gap-3 px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white border-r border-malina">Regulamin wydarzenia</a>
-                  <a href="/docs/zgoda_rodzica.pdf" target='_blank' className="inline-flex items-center gap-3 px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white">Zgoda rodzica</a>
+                  <a href="/docs/regulamin.pdf" target='_blank' className="inline-flex items-center w-full px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white border-r border-malina">Regulamin wydarzenia</a>
+                  <a href="/docs/zgoda_rodzica.pdf" target='_blank' className="inline-flex items-center w-full px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white">Zgoda rodzica</a>
                 </div>
               </div>
 
