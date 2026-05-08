@@ -12,23 +12,47 @@ const App = () => {
 
   const agendaItems = [
     {
-      time: "09:00",
+      time: "09:00 - 10:00",
       tag: "REJESTRACJA",
-      title: "Rejestracja i powitalna kawa",
-      description: "Odbiór identyfikatorów, kawa, networking przed oficjalnym rozpoczęciem."
+      title: "Rejestracja osób uczestniczących",
+      description: ""
     },
     {
-      time: "10:00",
+      time: "10:00 - 10:40",
       tag: "OTWARCIE",
-      title: "Uroczyste otwarcie Okrągłego Stołu",
-      description: "Słowo wstępne organizatorów — SUS i Fundacja PZU. Wprowadzenie w tematykę Krajowej Strategii Młodzieżowej i cele konsultacji."
+      title: "Otwarcie spotkania",
+      description: ""
     },
     {
-      time: "10:30",
-      tag: "PANEL DYSKUSYJNY",
-      title: "„Diagnoza Młodzieży 2026” — co mówią dane?",
-      description: "Prezentacja wyników raportu przygotowanego przez Polskie Towarzystwo Polityki Społecznej. Dyskusja ekspercka z udziałem zaproszonych gości."
-    }
+      time: "10:40 - 13:30",
+      tag: "WARSZTATY",
+      title: "Warsztaty przy stołach tematycznych (z elastycznymi przerwami)",
+      description: ""
+    },
+    {
+      time: "13:30 - 14:30",
+      tag: "LUNCH",
+      title: "Lunch i poczęstunek",
+    },
+    {
+      time: "14:30 - 16:00",
+      tag: "PREZENTACJA",
+      title: "Prezentacja wyników prac, podsumowanie",
+      description: ""
+    },
+    {
+      time: "16:00",
+      tag: "ZAKOŃCZENIE",
+      title: "Zakończenie części oficjalnej",
+      description: ""
+    },
+    {
+      time: "16:00 - 17:00",
+      tag: "NETWORKING",
+      title: "Rozmowy kuluarowe",
+      description: ""
+    },
+
   ];
   const downloads = [
     {
@@ -162,9 +186,7 @@ const App = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-12">Agenda Okrągłego Stołu</h2>
 
               <div className="space-y-12">
-                <p>Agenda zostanie ogłoszona w najbliższym czasie.</p>
-                <p>Rozpoczęcie wydarzenia o godzinie 9:00.</p>
-                {/* {agendaItems.map((item, idx) => (
+                {agendaItems.map((item, idx) => (
                   <div key={idx} className="flex flex-col md:flex-row gap-6 md:gap-16 border-b border-gray-200 pb-12 last:border-0">
                     <div className="md:w-32">
                       <span className="text-3xl font-bold font-special">{item.time}</span>
@@ -177,7 +199,7 @@ const App = () => {
                       <p className="leading-relaxed max-w-2xl">{item.description}</p>
                     </div>
                   </div>
-                ))} */}
+                ))}
               </div>
             </div>
           </div>
