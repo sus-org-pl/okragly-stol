@@ -303,9 +303,9 @@ const App = () => {
                 <p className="font-special text-2xl font-extrabold">
                   Do pobrania
                 </p>
-                <div className="inline-flex rounded-full w-full md:w-[80%] overflow-hidden border-2 border-malina">
-                  <a href="/docs/regulamin.pdf" target='_blank' className="inline-flex items-center w-full px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white border-r border-malina">Regulamin wydarzenia</a>
-                  <a href="/docs/zgoda_rodzica.pdf" target='_blank' className="inline-flex items-center w-full px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white">Zgoda rodzica</a>
+                <div className="inline-flex rounded-full text-center overflow-hidden border-2 border-malina">
+                  <a href="/docs/regulamin.pdf" target='_blank' className="inline-flex whitespace-break-spaces md:whitespace-nowrap items-center w-full px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white border-r border-malina">Regulamin wydarzenia</a>
+                  <a href="/docs/zgoda_rodzica.pdf" target='_blank' className="inline-flex whitespace-break-spaces md:whitespace-nowrap items-center w-full px-8 py-3 text-malina font-semibold transition-all hover:bg-malina hover:text-white">Zgoda rodzica</a>
                 </div>
               </div>
 
